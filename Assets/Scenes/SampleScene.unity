@@ -129,7 +129,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 21602490}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Environment
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -339,10 +339,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: feed6169d03ca4ddc921f72e04a4109b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerBody: {fileID: 1093950611}
+  gunCam: {fileID: 1241688601}
   mouseSensitivity: 4
   rotationSmoothness: 0.05
-  minVerticalAngle: -90
+  minVerticalAngle: -180
   maxVerticalAngle: 90
 --- !u!1 &974315893
 GameObject:
@@ -356,7 +356,7 @@ GameObject:
   - component: {fileID: 974315896}
   - component: {fileID: 974315895}
   - component: {fileID: 974315894}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Plane
   m_TagString: Untagged
   m_Icon: {fileID: 0}

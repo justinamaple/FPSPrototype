@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MouseLookBookVersion : MonoBehaviour
+public class MouseLookBook : MonoBehaviour
 {
     public enum RotationAxes {
         MouseXAndY = 0,
